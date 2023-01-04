@@ -40,7 +40,7 @@ const SinglePlayer = (props: { useVtt?: boolean }) => {
           file: {
             tracks: [
               {
-                kind: "subtitles",
+                kind: "captions",
                 src: vttUrl,
                 srcLang: "ja",
                 label: "whisper-subtitle",

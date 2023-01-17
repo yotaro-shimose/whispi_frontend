@@ -15,7 +15,6 @@ export const asrApiCall = async (file: File) => {
   const url = `${BACKEND_URL}/vtt`;
   const ret = await axios.postForm<ASRResponse>(url, form, headers);
   const vttString = ret.data.vtt;
-  console.log(vttString);
 
   return vttString;
 };

@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
 
 body {
-    margin: 0;
+  margin: 0;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
